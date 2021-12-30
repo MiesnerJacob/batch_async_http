@@ -17,7 +17,7 @@ pip install batch-async-http
 
 A typical function to make http requests to a REST API may look something like this:
 
-```
+```python
 import requests
 
 def call_api(example_input: list):
@@ -39,7 +39,7 @@ def call_api(example_input: list):
 
 A typical async function to make http requests to a REST API may look something like this:
 
-```
+```python
 import httpx
 
 async def call_api(example_input: list):
@@ -62,7 +62,7 @@ async def call_api(example_input: list):
 
 The power of batching your async requests is now just as easy as applying a simple decorator to your async function:
 
-```
+```python
 import httpx
 from batch_async_http import batch_async
 
