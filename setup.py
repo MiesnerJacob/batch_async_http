@@ -7,7 +7,7 @@ setup(
     name='batch_async_http',
     version='0.0.1',
     packages=['batch_async_http'],
-    url='',
+    url='https://https://github.com/MiesnerJacob/batch_async_http',
     license='GPLv3',
     author='Jacob Miesner',
     author_email='miesner.jacob@gmail.com',
